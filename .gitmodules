@@ -1,0 +1,3 @@
+[submodule "servant-github-webhook"]
+	path = servant-github-webhook
+	url = git@github.com:bgamari/servant-github-webhook.git

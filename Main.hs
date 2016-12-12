@@ -16,7 +16,7 @@ import Servant.GitHub.Webhook
 import GitHub
 import GitHub.Data.Id
 
-type Api = "/proposals"
+type Api = "/hook"
            :> GitHubEvent '[ 'WebhookPullRequestEvent ]
            :> GitHubSignedReqBody '[JSON] PullRequestEvent
            :> Post '[JSON] ()
